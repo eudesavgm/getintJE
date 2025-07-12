@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ddd;
+}
+
+.images{
+    display: flex;
+    animation-duration: 15s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mesImages{
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-1424px);
+    }
+    40% {
+        transform: translateX(-2848px);
+    }
+    60% {
+        transform: translateX(-4272px);
+    }
+    80% {
+        transform: translateX(-5696px);
+    }
+    100% {
+        transform: translateX(0);
+   }
+}
+
+#getintJE{
+    width: 1424px;
+    overflow: hidden;
+    height: auto;
+  
+}
